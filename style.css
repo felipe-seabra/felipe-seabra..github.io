@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap');
+
+body {
+    font-family: 'Andada Pro', serif;
+}
+
+h1 {
+    padding-bottom: 1.5rem;
+}
+
+h1, h2, h4, .navbar-brand {
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+h1, h2 {
+    color: var(--bs-dark)
+}
+
+p {
+    text-align: justify;
+}
+
+#picture {
+    border-radius: 10%;
+}
+
+.botton {
+    text-decoration: none;
+    color: white;
+    background-color: #475550;
+    padding: 10px 20px;
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+}
