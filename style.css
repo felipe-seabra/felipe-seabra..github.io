@@ -36,3 +36,31 @@ p {
     font-weight: 700;
     text-align: center;
 }
+
+.logo {
+    width: 50px;
+    border-radius: 50%;
+}
+
+#copy {
+    background-color: #f1f1f1;
+}
+
+#copy .container {
+    padding: 10px;
+    text-align: center;
+}
+
+#copy .container p {
+    margin: 0px;
+}
+
+#copy .container a {
+    font-weight: bold;
+    color: #444;
+}
+
+#copy .container a:hover {
+    text-decoration: none;
+    color: #3ec1d5;
+}
