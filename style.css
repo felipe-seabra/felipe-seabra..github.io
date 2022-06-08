@@ -64,3 +64,15 @@ p {
     text-decoration: none;
     color: #3ec1d5;
 }
+
+@media (orientation: landscape) {
+    p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (orientation: portrait) {
+    .section {
+        padding-top: 7rem;
+    }
+}
