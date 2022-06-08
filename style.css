@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap');
+
+body {
+    font-family: 'Andada Pro', serif;
+}
+
+h1 {
+    padding-bottom: 1.5rem;
+}
+
+h1, h2, h4, .navbar-brand {
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+h1, h2 {
+    color: var(--bs-dark)
+}
+
+p {
+    text-align: justify;
+}
+
+#picture {
+    border-radius: 10%;
+}
+
+.botton {
+    text-decoration: none;
+    color: white;
+    background-color: #475550;
+    padding: 10px 20px;
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.logo {
+    width: 50px;
+    border-radius: 50%;
+}
+
+#copy {
+    background-color: #f1f1f1;
+}
+
+#copy .container {
+    padding: 10px;
+    text-align: center;
+}
+
+#copy .container p {
+    margin: 0px;
+}
+
+#copy .container a {
+    font-weight: bold;
+    color: #444;
+}
+
+#copy .container a:hover {
+    text-decoration: none;
+    color: #3ec1d5;
+}
+
+@media (orientation: landscape) {
+    p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (orientation: portrait) {
+    .section {
+        padding-top: 7rem;
+    }
+}
