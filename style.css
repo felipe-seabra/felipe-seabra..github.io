@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Andada Pro', serif;
+    background-color: #E0E1DD;
 }
 
 h1 {
@@ -13,9 +14,9 @@ h1, h2, h4, .navbar-brand {
     font-family: 'Averia Serif Libre', cursive;
 }
 
-h1, h2 {
+/* h1, h2 {
     color: var(--bs-dark)
-}
+} */
 
 p {
     text-align: justify;
