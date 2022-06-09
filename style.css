@@ -42,6 +42,10 @@ p {
     border-radius: 50%;
 }
 
+a {
+    text-decoration: none;
+}
+
 #copy {
     background-color: #f1f1f1;
 }
