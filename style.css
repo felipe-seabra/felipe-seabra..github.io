@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap');
 
+ul {
+    border: 3px solid orange;
+}
+
 body {
     font-family: 'Andada Pro', serif;
     background-color: #E0E1DD;
@@ -13,10 +17,6 @@ h1 {
 h1, h2, h4, .navbar-brand {
     font-family: 'Averia Serif Libre', cursive;
 }
-
-/* h1, h2 {
-    color: var(--bs-dark)
-} */
 
 p {
     text-align: justify;
@@ -38,9 +38,62 @@ p {
     text-align: center;
 }
 
+.navigation section {
+    border: 3px solid red;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D1B2A;
+    height: 80px;
+    width: 100%;
+}
+
+/* .align-right {
+    padding-right: 2em;
+}  */
+
+/* .nav-links {
+    margin: auto 0;
+    text-align: center;
+} */
+
+.left {
+    float: left;
+}
+
+.nav-links {
+    padding: 0px;
+    margin: auto;
+}
+
+.nav-links li {
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    color: #E0E1DD;
+}
+
+nav a {
+    color: #E0E1DD;
+    font-size: 1em;
+}
+
+nav a:hover {
+    color: #babbb8;
+    font-size: 1.2em;
+}
+
 .logo {
     width: 50px;
     border-radius: 50%;
+}
+
+.social {
+    width: 30px;
+    filter: invert(100%);
 }
 
 a {
