@@ -1,21 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap');
-
-ul {
-    border: 3px solid orange;
-}
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap");
 
 body {
-    font-family: 'Andada Pro', serif;
-    background-color: #E0E1DD;
+    font-family: "Andada Pro", serif;
+    background-color: #e0e1dd;
 }
 
 h1 {
     padding-bottom: 1.5rem;
 }
 
-h1, h2, h4, .navbar-brand {
-    font-family: 'Averia Serif Libre', cursive;
+h1,
+h2,
+h4,
+.navbar-brand {
+    font-family: "Averia Serif Libre", cursive;
 }
 
 p {
@@ -31,54 +30,50 @@ p {
     color: white;
     background-color: #475550;
     padding: 10px 20px;
-    font-family: 'Averia Serif Libre', cursive;
+    font-family: "Averia Serif Libre", cursive;
     font-size: 16px;
     line-height: 20px;
     font-weight: 700;
     text-align: center;
 }
-
-.navigation section {
+/* navbar */
+nav {
     border: 3px solid red;
 }
 
-.navigation {
+.header {
     display: flex;
+    background-color: #0d1b2a;
+    height: 75px;
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
     justify-content: center;
     align-items: center;
-    background-color: #0D1B2A;
-    height: 80px;
-    width: 100%;
-}
-
-/* .align-right {
-    padding-right: 2em;
-}  */
-
-/* .nav-links {
-    margin: auto 0;
     text-align: center;
-} */
-
-.left {
-    float: left;
 }
 
-.nav-links {
-    padding: 0px;
+.name-logo {
+    position: absolute;
+    left: 1em;
     margin: auto;
 }
 
-.nav-links li {
-    display: inline;
-    list-style-type: none;
-    text-decoration: none;
-    color: #E0E1DD;
+.nav-links {
+    position: absolute;
+    margin: auto;
 }
 
-nav a {
-    color: #E0E1DD;
+.sociais {
+    position: absolute;
+    right: 1em;
+    margin: auto;
+}
+
+.header a {
+    color: #e0e1dd;
     font-size: 1em;
+    text-decoration: none;
 }
 
 nav a:hover {
@@ -86,9 +81,9 @@ nav a:hover {
     font-size: 1.2em;
 }
 
-.logo {
-    width: 50px;
-    border-radius: 50%;
+/*desativa hover dos icones sociais*/
+.active a:hover {
+    font-size: 1em;
 }
 
 .social {
@@ -96,10 +91,15 @@ nav a:hover {
     filter: invert(100%);
 }
 
+.logo {
+    width: 50px;
+    border-radius: 50%;
+}
+
 a {
     text-decoration: none;
 }
-
+/*navbar*/
 #copy {
     background-color: #f1f1f1;
 }
