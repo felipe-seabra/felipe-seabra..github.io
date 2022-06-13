@@ -29,11 +29,12 @@ p {
 
 /* navbar */
 .header {
+    position: fixed;
     font-family: "Averia Serif Libre", cursive;
     font-size: 18px;
     display: flex;
     background-color: #0d1b2a;
-    border-bottom: 7px solid #415A77;
+    border-bottom: 7px solid #415a77;
     height: 75px;
     width: 100%;
     justify-content: center;
@@ -118,7 +119,7 @@ a {
 
 .container {
     display: flex;
-    width: 71%;
+    width: 70%;
     margin: auto;
 }
 
@@ -146,7 +147,7 @@ main a:hover {
 
 .botton {
     text-decoration: none;
-    color: #E0E1DD;
+    color: #e0e1dd;
     background-color: #0d1b2a;
     padding: 10px 20px;
     font-family: "Averia Serif Libre", cursive;
@@ -157,7 +158,7 @@ main a:hover {
 }
 
 .botton:hover {
-    color: #778DA9;
+    color: #778da9;
 }
 
 /*main*/
@@ -187,5 +188,10 @@ main a:hover {
 @media (orientation: portrait) {
     .section {
         padding-top: 7rem;
+    }
+    .container {
+        display: block;
+        width: 70%;
+        margin: auto;
     }
 }
