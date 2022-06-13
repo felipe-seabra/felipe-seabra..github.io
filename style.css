@@ -27,28 +27,29 @@ p {
     border-radius: 10%;
 }
 
-.botton {
-    text-decoration: none;
-    color: white;
-    background-color: #475550;
-    padding: 10px 20px;
-    font-family: "Averia Serif Libre", cursive;
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 700;
-    text-align: center;
-}
 /* navbar */
 .header {
+    position: fixed;
     font-family: "Averia Serif Libre", cursive;
     font-size: 18px;
     display: flex;
     background-color: #0d1b2a;
+    border-bottom: 7px solid #415a77;
     height: 75px;
     width: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.header .name-logo a {
+    display: flex;
+    align-items: center;
+}
+
+.header li {
+    display: inline;
+    list-style: none;
 }
 
 .name-logo {
@@ -98,6 +99,7 @@ a {
     text-decoration: none;
 }
 /*navbar*/
+
 /*main*/
 #about {
     font-size: 30px;
@@ -117,7 +119,7 @@ a {
 
 .container {
     display: flex;
-    width: 71%;
+    width: 60%;
     margin: auto;
 }
 
@@ -133,14 +135,47 @@ a {
     border-radius: 20px;
     box-shadow: 3px 3px #0d1b2a, -1em 0 0.4em #778da9;
 }
+
+main a {
+    text-decoration: none;
+    color: #2fc18c;
+}
+
+main a:hover {
+    color: #036b52;
+}
+
+.botton {
+    text-decoration: none;
+    color: #e0e1dd;
+    background-color: #0d1b2a;
+    padding: 10px 20px;
+    font-family: "Averia Serif Libre", cursive;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.botton:hover {
+    color: #778da9;
+}
+
 /*main*/
 
 /*rodapé*/
 .footer {
+    display: flex;
     background-color: #f1f1f1;
     padding: 0;
     height: 25px;
     color: #444;
+    width: 100%;
+    align-items: center;
+}
+
+.footer p {
+    font-size: small;
     width: 100%;
 }
 
@@ -153,5 +188,10 @@ a {
 @media (orientation: portrait) {
     .section {
         padding-top: 7rem;
+    }
+    .container {
+        display: block;
+        width: 70%;
+        margin: auto;
     }
 }
