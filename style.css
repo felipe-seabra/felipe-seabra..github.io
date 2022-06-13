@@ -40,6 +40,8 @@ p {
 }
 /* navbar */
 .header {
+    font-family: "Averia Serif Libre", cursive;
+    font-size: 18px;
     display: flex;
     background-color: #0d1b2a;
     height: 75px;
@@ -97,6 +99,10 @@ a {
 }
 /*navbar*/
 /*main*/
+#about {
+    font-size: 30px;
+}
+
 .logos-main {
     width: 40px;
 }
@@ -125,7 +131,7 @@ a {
 
 .picture {
     border-radius: 20px;
-    box-shadow: 3px 3px #0D1B2A, -1em 0 0.4em #778DA9;
+    box-shadow: 3px 3px #0d1b2a, -1em 0 0.4em #778da9;
 }
 /*main*/
 
