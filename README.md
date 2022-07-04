@@ -1,2 +1,2 @@
 # felipe-seabra.github.io
-Meu portifólio
+Meu portfólio
