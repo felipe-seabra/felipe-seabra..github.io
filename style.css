@@ -13,14 +13,14 @@
   width: 100%;
 }
 
-nav {
+/* nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 45px;
   padding-left: 8%;
   padding-right: 8%;
-}
+} */
 
 .logo {
   color: #fff;
@@ -28,6 +28,11 @@ nav {
   cursor: pointer;
   letter-spacing: 1px;
 }
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 span {
   color: #f9004d;
 }
@@ -77,7 +82,7 @@ nav ul li a:hover {
 .Main {
   position: absolute;
   top: 50%;
-  left: 8%;
+  left: 5%;
   transform: translateY(-50%);
 }
 
@@ -144,7 +149,7 @@ h3 {
 }
 
 .background-color-Sobre img {
-  width: 430px;
+  width: 100%;
   height: auto;
 }
 
@@ -153,21 +158,21 @@ h3 {
 }
 
 .main-sobre {
-  display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 1130px;
+  
   margin: 0 auto;
 }
 
 .picture {
+  max-width: 300px;
   border-radius: 20px;
   box-shadow: 3px 3px #0d1b2a;
 }
 
 .Text-sobre h2 {
   color: #fff;
-  font-size: 75px;
+  font-size: 4em;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
@@ -213,8 +218,7 @@ button:hover {
 
 .title h2 {
   color: #fff;
-  font-size: 75px;
-  width: 1130px;
+  font-size: 4em;
   margin: 30px auto;
   text-align: center;
 }
@@ -275,7 +279,7 @@ h5 {
 
 .me-contate p {
   color: #fff;
-  font-size: 30px;
+  font-size: 1.5em;
   font-weight: bold;
   margin-bottom: 25px;
 }
