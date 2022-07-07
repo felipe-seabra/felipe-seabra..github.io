@@ -260,6 +260,14 @@ h5 {
   margin-bottom: 15px;
 }
 
+.card-body {
+  background-color: #191919;
+}
+
+.card-body p {
+  color: #fff;
+}
+
 .Paragrafo-button {
   color: #fcfc;
   font-size: 16px;
