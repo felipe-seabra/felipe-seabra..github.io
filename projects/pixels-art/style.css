@@ -78,7 +78,7 @@ body {
   transform: scale(1.2);
 }
 
-footer {
+#footer {
   position: absolute;
   bottom: 0px;
   width: 100%;
@@ -103,6 +103,6 @@ footer p {
 .end {
   position: absolute;
   color: #f9004d;
-  bottom: 10px;
+  bottom: 0;
   font-size: 14px;
 }
