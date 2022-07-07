@@ -13,6 +13,10 @@
   width: 100%;
 }
 
+.show {
+  text-align: right;
+}
+
 /* nav {
   display: flex;
   align-items: center;
@@ -34,7 +38,7 @@
 }
 
 span {
-  color: #f9004d;
+  color: #dc143c;
 }
 
 main a {
@@ -60,12 +64,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #f9004d;
+  color: #dc143c;
   transform: 0.4s;
 }
 
 .btn {
-  background-color: #f9004d;
+  background-color: #dc143c;
   color: #fff;
   text-decoration: none;
   border: 2px solid transparent;
@@ -87,7 +91,7 @@ nav ul li a:hover {
 }
 
 .Main span {
-  color: #f9004d;
+  color: #dc143c;
 }
 
 #animate-flicker {
@@ -123,7 +127,7 @@ h3 {
   display: inline-block;
   width: 100%;
   padding: 14px 130px 14px 15px;
-  border: 2px solid #f9004d;
+  border: 2px solid #dc143c;
   border-radius: 30px;
   outline: none;
 }
@@ -135,7 +139,7 @@ h3 {
   border: none;
   padding: 10px 30px;
   border-radius: 30px;
-  background-color: #f9004d;
+  background-color: #dc143c;
   color: #fff;
   box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
   right: 6px;
@@ -160,7 +164,7 @@ h3 {
 .main-sobre {
   align-items: center;
   justify-content: space-around;
-  
+
   margin: 0 auto;
 }
 
@@ -186,7 +190,7 @@ h3 {
 }
 
 .Text-sobre p {
-  color: #fcfc;
+  color: #fff;
   letter-spacing: 1px;
   line-height: 28px;
   font-size: 18px;
@@ -194,7 +198,7 @@ h3 {
 }
 
 button {
-  background-color: #f9004d;
+  background-color: #dc143c;
   color: #fff;
   text-transform: none;
   border: 2px solid transparent;
@@ -206,7 +210,7 @@ button {
 
 button:hover {
   background-color: transparent;
-  border: 2px solid #f9004d;
+  border: 2px solid #dc143c;
   cursor: pointer;
 }
 
@@ -247,7 +251,7 @@ button:hover {
   display: block;
   text-align: center;
   margin: 25px 0px;
-  color: #f9004d;
+  color: #dc143c;
 }
 
 h5 {
@@ -315,7 +319,7 @@ footer p {
 }
 
 .Redes-sociais a {
-  background-color: #f9004d;
+  background-color: #dc143c;
   width: 45px;
   height: 45px;
   padding: 15px;
@@ -337,7 +341,7 @@ footer p {
 
 .end {
   position: absolute;
-  color: #f9004d;
+  color: #dc143c;
   bottom: 35px;
   font-size: 14px;
 }
