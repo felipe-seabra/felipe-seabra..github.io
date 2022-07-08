@@ -5,6 +5,8 @@ let selected = document.querySelector('.selected');
 let cor = document.querySelector('.selected').style.backgroundColor;
 let button = document.getElementById('clear-board');
 let generateBoard = document.getElementById('generate-board');
+let rubber = document.getElementById('rubber');
+let random = document.getElementById('random');
 
 function whitePixel() {
   for (let i of pixels) {
@@ -102,5 +104,10 @@ for (let x of colors) {
   });
 }
 
+rubber.addEventListener('click', function(){
+  cor = 'white';
+});
+
+random.addEventListener('click', corRandon);
 button.addEventListener('click', whitePixel);
 generateBoard.addEventListener('click', tamPaleta);
