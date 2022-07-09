@@ -296,6 +296,7 @@ h5 {
 .card-body {
   background-color: #191919;
   height: 95%;
+  padding: 1.08rem;
 }
 
 .card2-body {
@@ -307,6 +308,10 @@ h5 {
 
 .card-body p {
   color: #fff;
+}
+
+.card-text {
+  margin: 5px;
 }
 
 .card-img-top {
