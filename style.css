@@ -45,12 +45,12 @@ span {
   color: #dc143c;
 }
 
-main a {
+.trybe {
   text-decoration: none;
   color: #2fc18c;
 }
 
-main a:hover {
+.trybe:hover {
   color: #036b52;
 }
 
