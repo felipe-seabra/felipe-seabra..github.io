@@ -1,6 +1,6 @@
 
-function addLinkBotton(classe, link) {
-  let Bottons = document.getElementsByClassName(classe);
+const addLinkBotton = (classe, link) => {
+  const Bottons = document.getElementsByClassName(classe);
   for (let botton of Bottons) {
     botton.href = link;
   }

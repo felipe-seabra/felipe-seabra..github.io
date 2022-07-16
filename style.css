@@ -408,49 +408,94 @@ footer p {
   0% {
     opacity: 1;
   }
+
   50% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @-o-keyframes flickerAnimation {
   0% {
     opacity: 1;
   }
+
   50% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @-moz-keyframes flickerAnimation {
   0% {
     opacity: 1;
   }
+
   50% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @-webkit-keyframes flickerAnimation {
   0% {
     opacity: 1;
   }
+
   50% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 #animate-flicker {
   -webkit-animation: flickerAnimation 1s infinite;
   -moz-animation: flickerAnimation 1s infinite;
   -o-animation: flickerAnimation 1s infinite;
   animation: flickerAnimation 1s infinite;
+}
+
+@media screen and (max-width: 990px) {
+  .picture {
+    max-width: 280px;
+  }
+
+  .Text-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+
+  .Text-sobre h2 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  .title h2 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    background-color: #191919;
+    z-index: 1;
+    border-radius: 0 0 5px 5px;
+    transition: .5s;
+  }
 }
