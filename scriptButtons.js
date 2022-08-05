@@ -6,6 +6,6 @@ const addLinkButton = (classe, link) => {
   }
 }
 
-addLinkButton('link-instagram', 'https://www.instagram.com/felipeseabradev/');
-addLinkButton('link-linkedin', 'https://www.linkedin.com/in/felipe-seabra/');
+addLinkButton('link-instagram', 'https://www.instagram.com/felipeseabra_');
+addLinkButton('link-linkedin', 'https://www.linkedin.com/in/felipe-seabra');
 addLinkButton('link-github', 'https://github.com/felipe-seabra');
