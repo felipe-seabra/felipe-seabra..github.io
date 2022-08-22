@@ -17,15 +17,6 @@
   text-align: right;
 }
 
-/* nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 45px;
-  padding-left: 8%;
-  padding-right: 8%;
-} */
-
 .logo {
   color: #fff;
   font-size: 35px;
@@ -79,12 +70,12 @@ nav ul li a:hover {
   border: 2px solid transparent;
   font-weight: bold;
   padding: 10px 25px;
-  border-radius: 30px;
+  border-radius: 25px;
   transition: transform 0.4s;
 }
 
 .btn:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .background-color-Sobre {
@@ -139,29 +130,6 @@ h3 {
   position: relative;
 }
 
-.Container-btn form input:first-child {
-  display: inline-block;
-  width: 100%;
-  padding: 14px 130px 14px 15px;
-  border: 2px solid #dc143c;
-  border-radius: 30px;
-  outline: none;
-}
-
-.Container-btn form input:last-child {
-  position: absolute;
-  display: inline-block;
-  outline: none;
-  border: none;
-  padding: 10px 30px;
-  border-radius: 30px;
-  background-color: #dc143c;
-  color: #fff;
-  box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
-  right: 6px;
-  top: 6px;
-}
-
 .background-color-Sobre img {
   width: 100%;
   height: auto;
@@ -207,24 +175,13 @@ h3 {
   margin-bottom: 45px;
 }
 
-button {
-  background-color: #dc143c;
-  color: #fff;
-  text-transform: none;
-  border: 2px solid transparent;
-  font-weight: bold;
-  padding: 13px 20px;
-  border-radius: 30px;
-  transition: 0.4s;
-}
-
 button:hover {
   background-color: transparent;
   border: 2px solid #dc143c;
   cursor: pointer;
 }
 
-.Container-serviços {
+.services-container {
   background-color: #101010;
   width: 100%;
   padding: 100px 0px;
@@ -237,7 +194,7 @@ button:hover {
   text-align: center;
 }
 
-.Caixa {
+.card-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -245,11 +202,11 @@ button:hover {
   flex-wrap: wrap;
 }
 
-.card {
+.card-bg {
   background-color: #101010;
 }
 
-.Card {
+.card {
   background: #191919;
   height: 365px;
   width: 335px;
@@ -260,7 +217,7 @@ button:hover {
   text-align: center;
 }
 
-.Card-2 {
+.card-2 {
   background: #101010;
   height: 365px;
   width: 335px;
@@ -271,7 +228,7 @@ button:hover {
   text-align: center;
 }
 
-.Card-2 i {
+.card-2 i {
   font-size: 50px;
   display: block;
   text-align: center;
@@ -279,7 +236,7 @@ button:hover {
   color: #dc143c;
 }
 
-.Card i {
+.card i {
   font-size: 50px;
   display: block;
   text-align: center;
@@ -318,16 +275,16 @@ h5 {
   width: 105%;
 }
 
-.Paragrafo-button {
+/* .Paragrafo-button {
   color: #fff;
   font-size: 16px;
   line-height: 27px;
   margin-bottom: 25px;
-}
+} */
 
-.Paragrafo-button button {
+/* .Paragrafo-button button {
   margin-top: 25px;
-}
+} */
 
 .me-contate {
   width: 100%;
