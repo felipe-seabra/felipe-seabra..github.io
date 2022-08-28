@@ -1,178 +1,164 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfólio - Felipe Seabra</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="bootstrap.css">
-  <link rel="stylesheet" href="style.css" />
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Portfólio - Felipe Seabra</title>
-</head>
-
-<body>
-  <!---Cabeçalho-Main-->
-  <header>
-    <div class="background">
-      <nav class="navbar navbar-expand-md container-fluid">
-        <h2 class="logo navbar-brand">Portfó<span>lio</span></h2>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-felipe"
-          aria-controls="nav-felipe" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!--Logo-->
-        <div class="collapse navbar-collapse justify-content-center" id="nav-felipe">
-          <ul class="cabeçalho-link navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home<span class="sr-only">(Página atual)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">Sobre</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projetos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contato</a>
-            </li>
-          </ul>
-          <!--cabeçalho-link-->
-        </div>
-        <a target="_blank" class="btn d-none d-lg-block link-linkedin">Linkedin</a>
-      </nav>
-      <div class="Main">
-        <h4>Olá, meu nome é</h4>
-        <h1>Felipe <span>Seabra</span><span id="animate-flicker">|</span></h1>
-        <h3>Sou estudante de desenvolvimento web na <strong> <a class="trybe" href="https://www.betrybe.com/"
-              target="_blank">Trybe</a> </strong>.</h3>
-        <!-- <div class="Container-btn">
+  <body>
+    <!---Cabeçalho-Main-->
+    <header>
+      <div class="background">
+        <nav class="navbar navbar-expand-md container-fluid">
+          <h2 class="logo navbar-brand">Portfó<span>lio</span></h2>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-felipe" aria-controls="nav-felipe" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--Logo-->
+          <div class="collapse navbar-collapse justify-content-center" id="nav-felipe">
+            <ul class="cabeçalho-link navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home<span class="sr-only">(Página atual)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contato</a>
+              </li>
+            </ul>
+            <!--cabeçalho-link-->
+          </div>
+          <a target="_blank" class="btn d-none d-lg-block link-linkedin">Linkedin</a>
+        </nav>
+        <div class="Main">
+          <h4>Olá, meu nome é</h4>
+          <h1>Felipe <span>Seabra</span><span id="animate-flicker">|</span></h1>
+          <h3>
+            Sou estudante de desenvolvimento web na <strong> <a class="trybe" href="https://www.betrybe.com/" target="_blank">Trybe</a> </strong>.
+          </h3>
+          <!-- <div class="Container-btn">
           <form>
             <input type="email" nome="email" id="mail" placeholder="Envie seu Email" />
             <input type="submit" name="submit" value="Começar" />
           </form>
         </div>
         Container-btn -->
-      </div>
-      <!--Main-->
-    </div>
-  </header>
-
-  <main id="about">
-    <section class="background-color-Sobre">
-      <div class="container">
-        <div class="main-sobre row">
-          <img class="picture img-fluid" src="images/felipe-seabra.jpg" alt="Foto Felipe Seabra" />
-          <div class="Text-sobre mt-3">
-            <h2>Sobre Mim</h2>
-            <!-- <h5>Desenvolvedor <span>web</span></h5> -->
-            <p>
-              Natural de Presidente Prudente (SP), tenho aproximadamente 10 anos de experiência (como
-              Analista de Infraestrutura de TI) atuando em diversas áreas de tecnologia em educação.
-            </p>
-            <p>
-              Atualmente, sou estudante de desenvolvimento web full-stack na
-              <strong> <a class="trybe" href="https://www.betrybe.com/" target="_blank">Trybe</a> </strong>.
-              <br /><br />
-              <strong> Minhas paixões são:</strong> aprender coisas novas, <em> codar </em>, jogos digitais, procurar
-              o que consertar e <em>animais</em>!
-            </p>
-            <a target="_blank" class="btn link-linkedin">Vamos conversar</a>
-            <!--Button-->
-          </div>
-          <!--Text-sobre-->
         </div>
+        <!--Main-->
       </div>
-      <!--main-sobre-->
-    </section>
-    <!--background-color-Sobre-->
+    </header>
 
-    <!--Começo-da-seção-nossos-serviços-->
-    <div class="services-container container-fluid" id="projects">
-      <div class="title">
-        <h2>Meus Projetos</h2>
-      </div>
-      <!--title-->
-      <div class="card-box">
-        <!--Card-->
-        <div class="card">
-          <div class="card-bg">
-            <img class="card-img-top" src="projects/pixels-art/images/background-pixels-art.png"
-              alt="Imagem de Pixels Art" />
-            <div class="card-body">
-              <h5 class="card-title">Projeto Pixels Art</h5>
-              <p class="card-text">
-                Projeto desenvolvido após as aulas de JavaScript, onde aprendemos a trabalhar com elementos, eventos e
-                web storage.
+    <main id="about">
+      <section class="background-color-Sobre">
+        <div class="container">
+          <div class="main-sobre row">
+            <img class="picture img-fluid" src="images/felipe-seabra.jpg" alt="Foto Felipe Seabra" />
+            <div class="Text-sobre mt-3">
+              <h2>Sobre Mim</h2>
+              <!-- <h5>Desenvolvedor <span>web</span></h5> -->
+              <p>Natural de Presidente Prudente (SP), tenho aproximadamente 10 anos de experiência atuando em diversas áreas de tecnologia em educação.</p>
+              <p>
+                <br /><br />
+                Apesar de hoje me identificar mais com o <strong>Front-end</strong>, vejo que não há nada que eu não consiga <em>fazer/aprender</em>.
               </p>
-              <a href="projects/pixels-art/index.html" class="btn" target="_blank">Visitar</a>
+              <a target="_blank" class="btn link-linkedin">Vamos conversar</a>
+              <!--Button-->
             </div>
+            <!--Text-sobre-->
           </div>
         </div>
-        <div class="Card">
+        <!--main-sobre-->
+      </section>
+      <!--background-color-Sobre-->
+
+      <!--Começo-da-seção-nossos-serviços-->
+      <div class="services-container container-fluid" id="projects">
+        <div class="title">
+          <h2>Meus Projetos</h2>
+        </div>
+        <!--title-->
+        <div class="card-box">
+          <!--Card-->
           <div class="card">
-            <img class="card-img-top"
-              src="projects/criarte-profissionalizante/images/background-criarte-profissionalizante.png"
-              alt="Imagem de Pixels Art" />
-            <div class="card-body">
-              <h5 class="card-title">Página Colégio Criarte</h5>
-              <p class="card-text">
-                Projeto desenvolvido para descrição dos cursos profissionalizantes do Colégio Criarte. HTML, CSS e
-                JavaScript.
-              </p>
-              <a href="projects/criarte-profissionalizante/index.html" class="btn" target="_blank">Visitar</a>
+            <div class="card-bg">
+              <img class="card-img-top" src="projects/pixels-art/images/background-pixels-art.png" alt="Imagem de Pixels Art" />
+              <div class="card-body">
+                <h5 class="card-title">Projeto Pixels Art</h5>
+                <p class="card-text">Projeto desenvolvido após as aulas de JavaScript, onde aprendemos a trabalhar com elementos, eventos e web storage.</p>
+                <a href="projects/pixels-art/index.html" class="btn" target="_blank">Visitar</a>
+              </div>
+            </div>
+          </div>
+          <div class="Card">
+            <div class="card">
+              <img class="card-img-top" src="projects/criarte-profissionalizante/images/background-criarte-profissionalizante.png" alt="Imagem de Pixels Art" />
+              <div class="card-body">
+                <h5 class="card-title">Página Colégio Criarte</h5>
+                <p class="card-text">Projeto desenvolvido para descrição dos cursos profissionalizantes do Colégio Criarte. HTML, CSS e JavaScript.</p>
+                <a href="projects/criarte-profissionalizante/index.html" class="btn" target="_blank">Visitar</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <i class="fas fa-bell"></i>
+              <h5>Em Construção</h5>
             </div>
           </div>
         </div>
-        <div class="card">
-          <div>
-            <i class="fas fa-bell"></i>
-            <h5>Em Construção</h5>
-          </div>
+        <div class="container text-center mt-5">
+          <a href="/projects.html" class="btn">Todos os Projetos</a>
         </div>
-
+        <!--Caixa-->
       </div>
-      <div class="container text-center mt-5">
-        <a href="/projects.html" class="btn">Todos os Projetos</a>
+      <!--Conatiner-serviços-->
+      <!--Contatos-->
+      <div class="me-contate container-fluid text-center" id="contact">
+        <p>Contate para saber mais</p>
+        <a target="_blank" class="btn link-linkedin">Enviar mensagem</a>
+        <!--button-->
       </div>
-      <!--Caixa-->
-    </div>
-    <!--Conatiner-serviços-->
-    <!--Contatos-->
-    <div class="me-contate container-fluid text-center" id="contact">
-      <p>Contate para saber mais</p>
-      <a target="_blank" class="btn link-linkedin">Enviar mensagem</a>
-      <!--button-->
-    </div>
-    <!--me-contate-->
-  </main>
-  <!--Rodapé--->
-  <footer>
-    <h6>Felipe Seabra</h6>
-    <p>Para mais informações - clique nos links abaixo</p>
-    <div class="Redes-sociais">
-      <a class="link-github" target="_blank"><i class="fab fa-github"></i></a>
-      <a class="link-linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a class="link-instagram" target="_blank"><i class="fab fa-instagram"></i></a>
-    </div>
-    <!--Redes-sociais-->
-    <p class="end">Felipe S. - &copy; 2022</p>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-  <script src="scriptButtons.js"></script>
-</body>
-
+      <!--me-contate-->
+    </main>
+    <!--Rodapé--->
+    <footer>
+      <h6>Felipe Seabra</h6>
+      <p>Para mais informações - clique nos links abaixo</p>
+      <div class="Redes-sociais">
+        <a class="link-github" target="_blank"><i class="fab fa-github"></i></a>
+        <a class="link-linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a class="link-instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+      <!--Redes-sociais-->
+      <p class="end">Felipe S. - &copy; 2022</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scriptButtons.js"></script>
+  </body>
 </html>
